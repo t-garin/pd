@@ -15,7 +15,7 @@ main file is `sandbox.pd`, the others are components made to be used in the main
   - inlet 3 (force) [1-12]: strength of mutation (in semitones)
   - inlet 4 (fforce) [bool]: if full force, mutation will always be the force amount, if not, a random amount of semitones between 0 and force will be used
   - outlet: midi note
-  - **TODO: add some midi range limitations - possibility to have a smaller sequence than 16 - possibilities to have CV / Gate sequences ?**
+  - **TODO: possibility to have a smaller sequence than 16 - possibilities to have CV / Gate sequences ?**
 - `sr8.pd`, a 8 bit shift register.
   - inlet: banged float
   - outlets: left is most recent, right is the oldest
