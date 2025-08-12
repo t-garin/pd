@@ -1,0 +1,18 @@
+#N canvas 0 70 3072 1537 36;
+#X obj 224 325 bng 48 250 50 0 empty empty empty 0 -25 0 36 #fcfcfc #000000 #000000;
+#X obj 362 95 nbx 5 72 1 255 0 0 empty empty BPM 0 -30 0 18 #c6ffc7 #000000 #000000 0 256;
+#X obj 141 161 tgl 48 0 empty empty empty 0 -25 0 36 #fcfcfc #000000 #000000 0 1;
+#X obj 171 236 bpm2clk;
+#X obj 625 98 vsl 48 409 0 100 0 0 empty empty proba 0 -30 0 18 #c6ffc7 #2f004d #2f004d 0 0;
+#X obj 769 80 vsl 48 409 1 12 0 0 empty empty force 0 -30 0 18 #c6ffc7 #2f004d #2f004d 0 0;
+#X obj 1518 177 tgl 80 0 empty empty Full\ force 0 -30 0 18 #c6ffc7 #000000 #000000 0 1;
+#X obj 732 684 mutation;
+#X floatatom 672 890 5 0 0 0 - - - 0;
+#X connect 0 0 7 0;
+#X connect 1 0 3 1;
+#X connect 2 0 3 0;
+#X connect 3 2 0 0;
+#X connect 4 0 7 1;
+#X connect 5 0 7 2;
+#X connect 6 0 7 3;
+#X connect 7 0 8 0;
