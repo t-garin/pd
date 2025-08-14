@@ -22,12 +22,17 @@
 #X obj 379 279 osc~, f 3;
 #X obj 179 119 midimut16, f 17;
 #X obj 19 59 bpm2clk, f 6;
+#X obj 422 204 gatemut16;
+#X obj 502 241 select 1;
 #X connect 0 0 22 0;
 #X connect 1 0 22 1;
 #X connect 2 0 21 0;
+#X connect 2 0 23 0;
 #X connect 3 0 21 1;
+#X connect 3 0 23 1;
 #X connect 5 0 21 2;
 #X connect 7 0 21 6;
+#X connect 7 0 23 2;
 #X connect 12 0 21 3;
 #X connect 14 0 21 4;
 #X connect 15 0 21 5;
@@ -43,3 +48,4 @@
 #X connect 20 0 11 1;
 #X connect 21 0 17 0;
 #X connect 22 2 2 0;
+#X connect 23 0 24 0;
